@@ -32,7 +32,7 @@ app.get("/ad", async (req, res) => {
 
   var data = response.data.choices.map((item) => item.text);
 
-  console.log(data);
+  // console.log(data);
 
   res.json(data);
 });
